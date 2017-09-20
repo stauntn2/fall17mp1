@@ -11,7 +11,7 @@ def grab_state(orig_query):
 
 def build_query(new_hash, orig_query, command):
 	result = "token="
-	result = result + new_hash + orig_query[38:] + url.quote(m.padding(len(orig_query) * 8)) + command
+	result = result + new_hash + orig_query[38:] + url.quote(m.padding(len(orig_query[38:]) * 8)) + command
 	return result
 
 def main(query_file, command3_file, output_file):
