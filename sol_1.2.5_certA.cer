@@ -1,0 +1,50 @@
+Certificate:
+	Data:
+		Version: 3 (0x2)
+		Serial Number:
+			4e:41:f2:89:eb:7b:92:ea:72:8c:d5:b5:41:82:a7:f4:3d:40:52:43
+	Signature Algorithm: md5WithRSAEncryption
+		Issuer: CN=ece422
+		Validity
+			Not Before: Sep 1 00:00:00 2017 GMT
+			Not After : Sep 27 00:00:00 2017 GMT
+		Subject: CN=amingni2, pseudonym=unused, C=US, ST=Illinois
+		Subject Public Key Info:
+		Public Key Algorithm: rsaEncryption
+			Public-Key: (2048 bit)
+			Modulus:
+				00:93:35:d1:0c:a1:11:a2:7c:53:38:7b:05:ab:3f:
+				39:69:de:58:e1:cd:43:af:dc:5e:93:00:9c:4e:18:
+				34:8e:86:17:0d:4e:be:06:63:69:34:ae:08:a1:a5:
+				0f:b6:fa:d8:d8:3f:c1:cc:a9:c8:2c:ea:01:4c:81:
+				55:7b:c7:a5:3f:57:3e:0b:a4:f9:ee:ba:4f:d3:bd:
+				46:e0:f8:ee:24:a0:d3:63:4d:9c:d8:65:aa:ad:98:
+				2d:ed:18:85:16:d7:64:53:58:e9:2b:20:2a:87:c2:
+				15:3b:b2:2e:06:57:23:b4:bd:91:3b:d0:8c:97:fb:
+				4e:ec:18:88:41:24:b2:45:ce:0c:1b:11:0b:54:10:
+				48:b3:3e:ca:fb:a0:94:dd:7e:20:a5:a6:92:72:1e:
+				b6:3d:8a:81:eb:3b:41:94:c5:04:f0:49:e4:77:9f:
+				fc:1f:6b:b6:f8:1d:3f:c0:3c:12:a5:cb:a1:68:76:
+				29:76:f8:0c:74:07:58:bf:4f:ba:a6:9f:a4:4b:50:
+				e2:6a:27:5f:4c:c0:94:47:7a:24:53:e5:eb:73:4c:
+				a7:53:7a:a3:0b:b1:60:7f:2a:b9:9a:ed:44:63:20:
+				f0:39:32:cb:36:93:6e:92:c0:05:db:c9:10:ae:32:
+				8a:2b:df:39:84:28:69:7e:1c:2f:38:b0:a8:c3:e4:
+				87:af
+			Exponent: 65537 (0x10001)
+	Signature Algorithm: md5WithRSAEncryption
+		88:61:19:2b:74:f0:63:4a:d0:a4:6d:ff:48:5e:b5:01:aa:be:
+		c6:0e:82:c6:53:11:86:b4:78:53:39:d4:0d:58:1d:be:11:47:
+		a2:69:2a:73:aa:06:1f:4e:65:75:46:f3:59:8f:69:73:75:79:
+		6f:cd:0e:a8:7a:56:b8:5c:02:ff:b6:78:8b:dc:ca:96:3f:2f:
+		70:21:24:4a:83:ad:d9:bc:b4:88:60:e1:28:ea:9c:7f:0a:c8:
+		b6:d2:08:82:aa:cf:31:01:bd:65:41:95:b6:cb:30:3f:0c:e8:
+		b1:7c:e0:94:d9:4b:69:87:79:d2:c4:e7:3e:51:3e:6a:2e:df:
+		a3:83:84:27:f7:ee:80:fd:c3:28:21:04:c4:46:1b:8b:ff:43:
+		73:e7:fe:bd:89:3f:0a:1b:2d:6a:57:62:94:2d:46:56:66:1a:
+		80:a1:07:7a:fe:f6:ff:ce:80:7f:8a:bd:3e:e4:06:41:16:4a:
+		b4:66:bc:07:87:40:5f:26:d1:48:ab:df:ee:6d:f4:6a:b1:07:
+		83:45:44:c6:6a:26:c6:23:d5:58:c5:9e:1e:f0:32:98:35:07:
+		b1:08:45:ee:77:d5:b9:27:f6:41:ad:08:f6:63:be:3e:63:9e:
+		62:26:de:6e:8e:1f:e9:9e:29:4f:6f:67:d7:62:cc:f2:ec:e6:
+		b7:e0:0f:66
