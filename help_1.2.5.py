@@ -21,7 +21,8 @@ def phase1():
 	prefix = open("pref1.2.5", "w")
 
 	blocks = 1
-	length = 64*blocks # 512 bits -> bytes
+	#length = 64*blocks # 512 bits -> bytes
+	length = 256
 	msg = in_1.read()[0:length]
 	prefix.write(msg)
 	prefix.close()
@@ -46,15 +47,17 @@ def pq_maker(b_1, b_2):
 	count = 0
 	while True:
 		print(count)
-		p_1 = number.getPrime(258)
-		p_2 = number.getPrime(258)
+		p_1 = number.getPrime(500)
+		p_2 = number.getPrime(500)
+		print("a1")
 		while not coprime(p_1-1):
-			p_1 = number.getPrime(258)
+			p_1 = number.getPrime(500)
+		print("A")
 		while not coprime(p_2-1):
-			p_2 = number.getPrime(258)
+			p_2 = number.getPrime(500)
 
 		b_0 = getCRT(b_1, b_2, p_1, p_2)
-
+		print("k")
 		k = 0
 		while k < limit2:
 			b = b_0 + k*p_1*p_2
@@ -83,8 +86,8 @@ def phase2():
 	b_1 = col1.read()
 	b_2 = col2.read()
 
-	b_1 = b_1[64:]
-	b_2 = b_2[64:]
+	b_1 = b_1[256:]
+	b_2 = b_2[256:]
 
 	q_1, q_2, p_1, p_2 = pq_maker(b_1, b_2)
 
